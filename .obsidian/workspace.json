@@ -11,12 +11,14 @@
             "id": "228434828478f8f0",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "img/Pasted image 20250309154601.png"
+                "file": "在Windows笔记本上配置VSCode，创建并启动虚拟环境.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250309154601"
+              "icon": "lucide-file",
+              "title": "在Windows笔记本上配置VSCode，创建并启动虚拟环境"
             }
           }
         ]
@@ -140,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "img/Pasted image 20250309154601.png",
+                "file": "在Windows笔记本上配置VSCode，创建并启动虚拟环境.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Pasted image 20250309154601 的大纲"
+              "title": "在Windows笔记本上配置VSCode，创建并启动虚拟环境 的大纲"
             }
           },
           {
@@ -177,8 +179,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "03d7929d6f8a5091",
+  "active": "228434828478f8f0",
   "lastOpenFiles": [
+    "img/Pasted image 20250309154601.png",
     "在Windows笔记本上配置VSCode，创建并启动虚拟环境.md",
     "mac教程.pdf",
     "2.1 Windows安装环境.md",
