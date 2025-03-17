@@ -156,3 +156,11 @@ pip install PyMuPDF
 ![[Pasted image 20250309170042.png]]
 
 OK，环境配置完成！
+
+# 3 - pip源添加
+
+##  1. Anaconda环境中设置pip的镜像源
+
+背景：有些软件包需要使用pip安装而不能使用conda安装，但**Anaconda中的pip**没国内镜像源的配置，会导致下载错误。
+
+没有使用国内镜像源而导致的pip下载错误
