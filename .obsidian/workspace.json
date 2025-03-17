@@ -11,14 +11,12 @@
             "id": "228434828478f8f0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "在Windows笔记本上配置VSCode，创建并启动虚拟环境.md",
-                "mode": "source",
-                "source": false
+                "file": "img/Pasted image 20250309154601.png"
               },
-              "icon": "lucide-file",
-              "title": "在Windows笔记本上配置VSCode，创建并启动虚拟环境"
+              "icon": "lucide-image",
+              "title": "Pasted image 20250309154601"
             }
           }
         ]
@@ -142,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "在Windows笔记本上配置VSCode，创建并启动虚拟环境.md",
+                "file": "img/Pasted image 20250309154601.png",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "在Windows笔记本上配置VSCode，创建并启动虚拟环境 的大纲"
+              "title": "Pasted image 20250309154601 的大纲"
             }
           },
           {
@@ -181,8 +179,8 @@
   },
   "active": "03d7929d6f8a5091",
   "lastOpenFiles": [
-    "mac教程.pdf",
     "在Windows笔记本上配置VSCode，创建并启动虚拟环境.md",
+    "mac教程.pdf",
     "2.1 Windows安装环境.md",
     "Obsidian-Remote/README.md",
     "Obsidian-Remote",
