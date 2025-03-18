@@ -90,9 +90,8 @@ Anaconda 是一个流行的Python数据科学平台，Anaconda 可以看做Pytho
 
 找到我们给的requirements.txt，复制requirements.txt的路径。
 
-然后有两种方法，分别使用pip和conda安装。
-
-### pip安装
+环境的搭建有两种方法, 一种是使用conda源进行安装, 一种是使用pip源进行安装, ==本次课程我们使用pip源安装作为教程==
+### 创建python虚拟环境
 
 首先创建虚拟环境，复制粘贴下面的命令，回车。
 这表示创建python版本为3.12、名字为env_name的虚拟环境。
@@ -108,6 +107,35 @@ conda activate env_name # env_name替换成想要的名字
 ```
 
 ![[Pasted image 20250309164139.png]]
+
+# 3 - pip源添加
+
+##  方法一：临时指定镜像源（单次生效）
+
+背景：有些软件包需要使用pip安装而不能使用conda安装，但**Anaconda中的pip**没国内镜像源的配置，会导致下载错误。
+
+没有使用国内镜像源而导致的pip下载错误
+
+在 `pip install` 命令中直接添加 `-i` 参数指定镜像源：
+
+```bash
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple package_name
+```
+
+## 方法二：永久修改 pip 源
+
+创建或修改 pip 配置文件，设置默认镜像源。
+
+- **Windows 系统**：
+	1. 打开文件资源管理器，输入路径：`%APPDATA%`，进入此目录。
+	2. 新建文件夹 `pip`（若不存在），并在其中新建文件 `pip.ini`。
+	3. 编辑 `pip.ini`，添加以下内容：
+
+```
+[global]
+index-url = https://pypi.tuna.tsinghua.edu.cn/simple
+trusted-host = pypi.tuna.tsinghua.edu.cn
+```
 
 复制粘贴下面的命令，回车
 ```bash
@@ -156,12 +184,4 @@ pip install PyMuPDF
 ![[Pasted image 20250309170042.png]]
 
 OK，环境配置完成！
-
-# 3 - pip源添加
-
-##  1. Anaconda环境中设置pip的镜像源
-
-背景：有些软件包需要使用pip安装而不能使用conda安装，但**Anaconda中的pip**没国内镜像源的配置，会导致下载错误。
-
-没有使用国内镜像源而导致的pip下载错误
 
