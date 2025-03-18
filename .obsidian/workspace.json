@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "585b7ac4414b070b",
+        "id": "437de513231ec18d",
         "type": "tabs",
         "children": [
           {
-            "id": "228434828478f8f0",
+            "id": "3b825e450822be85",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -179,12 +179,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "228434828478f8f0",
+  "active": "3b825e450822be85",
   "lastOpenFiles": [
-    "img/Pasted image 20250309154601.png",
+    "网站教程.pdf",
     "在Windows笔记本上配置VSCode，创建并启动虚拟环境.md",
-    "mac教程.pdf",
     "2.1 Windows安装环境.md",
+    "img/Pasted image 20250309154601.png",
+    "mac教程.pdf",
     "Obsidian-Remote/README.md",
     "Obsidian-Remote",
     "未命名.canvas",
@@ -197,7 +198,6 @@
     "img/Pasted image 20250309164913.png",
     "img/Pasted image 20250309164139.png",
     "img/Pasted image 20250309162419.png",
-    "img/Pasted image 20250309161656.png",
     "img"
   ]
 }
